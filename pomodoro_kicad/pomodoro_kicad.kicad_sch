@@ -4630,28 +4630,28 @@
 		(uuid "7d7a8a41-f4fd-4813-8eac-cf06abc2a982")
 	)
 	(no_connect
-		(at 224.79 137.16)
-		(uuid "82169395-8c19-4916-a70d-010d39f4ac7d")
-	)
-	(no_connect
 		(at 224.79 129.54)
 		(uuid "87f161ca-f8da-499d-981d-b3469a8ab270")
+	)
+	(no_connect
+		(at 224.79 127)
+		(uuid "a0d2a16f-6639-4067-a662-7ff6085e3c86")
+	)
+	(no_connect
+		(at 224.79 147.32)
+		(uuid "a40f607f-32fe-4525-945b-f7488ae913bf")
 	)
 	(no_connect
 		(at 255.27 134.62)
 		(uuid "a6335aed-24f0-4c86-9402-57f9f40582d9")
 	)
 	(no_connect
+		(at 224.79 149.86)
+		(uuid "b036bfb5-056c-49d8-a690-d75bae3bf0d2")
+	)
+	(no_connect
 		(at 224.79 114.3)
 		(uuid "b6abf51d-2438-4050-8e9b-694a2a74d8e2")
-	)
-	(no_connect
-		(at 224.79 147.32)
-		(uuid "bb476cd5-fea4-48f7-bae5-abae74260786")
-	)
-	(no_connect
-		(at 255.27 132.08)
-		(uuid "cdc7710d-ab62-444c-abed-9107eef9f763")
 	)
 	(no_connect
 		(at 224.79 116.84)
@@ -5888,7 +5888,7 @@
 		(uuid "158682ae-0bc5-46bd-8853-4e153b78e0b5")
 	)
 	(label "ROT_B"
-		(at 224.79 142.24 180)
+		(at 224.79 144.78 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5978,7 +5978,7 @@
 		(uuid "38ef6640-bd6a-423f-88ed-31ae02db4df2")
 	)
 	(label "MIC_SCK"
-		(at 224.79 121.92 180)
+		(at 224.79 132.08 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6078,7 +6078,7 @@
 		(uuid "7a8b7ac1-5287-4c7e-8840-52ed1f3d73c2")
 	)
 	(label "OLED_SDA"
-		(at 224.79 134.62 180)
+		(at 224.79 124.46 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6108,7 +6108,7 @@
 		(uuid "86bf1dde-b1c9-4f5d-bd4d-54094e2a72d5")
 	)
 	(label "OLED_SCL"
-		(at 224.79 132.08 180)
+		(at 224.79 121.92 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6158,7 +6158,7 @@
 		(uuid "adde702b-0040-4b4b-b445-fadf1bbb0413")
 	)
 	(label "MIC_WS"
-		(at 224.79 124.46 180)
+		(at 224.79 134.62 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6188,7 +6188,7 @@
 		(uuid "bab56747-7c2f-434b-a971-18b4d734a1d6")
 	)
 	(label "ROT_A"
-		(at 224.79 144.78 180)
+		(at 224.79 142.24 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6258,7 +6258,7 @@
 		(uuid "e2f11ab7-16b3-4b9b-8d27-2eeaf4a4cf89")
 	)
 	(label "LED_DATA"
-		(at 224.79 149.86 180)
+		(at 224.79 119.38 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6308,12 +6308,12 @@
 		(uuid "eeead1ed-7768-439c-a853-ecfa18058e44")
 	)
 	(label "MCP_STAT"
-		(at 224.79 119.38 180)
+		(at 255.27 132.08 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "f63178fc-3d4d-4226-9165-8afaad1d0403")
 	)
@@ -6328,7 +6328,7 @@
 		(uuid "f81df2b5-51a7-47dc-b053-da49a3fbaead")
 	)
 	(label "MIC_SD"
-		(at 224.79 127 180)
+		(at 224.79 137.16 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10487,7 +10487,7 @@
 				)
 			)
 		)
-		(property "Footprint" "_Footprints:SAMESKY_UJ20-C-H-G-SMT-1-P16-TR"
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
 			(at 143.51 40.64 0)
 			(hide yes)
 			(show_name no)
